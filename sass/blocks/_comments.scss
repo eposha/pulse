@@ -1,0 +1,28 @@
+.comments {
+  &__wrapper {
+    margin-top: 70px;
+  }
+  &__client {
+    display: flex;
+    margin-bottom: 100px;
+    img {
+      margin-right: 60px;
+    }
+    &__feed {
+      text-align: left;
+      h3 {
+        font-size: 18px;
+        color: rgb(13, 13, 13);
+      }
+      span {
+        font-size: 14px;
+        color: rgb(100, 100, 100);
+      }
+      div {
+        font-size: 16px;
+        color: rgb(13, 13, 13);
+        line-height: 1.2;
+      }
+    }
+  }
+}
